@@ -1,0 +1,18 @@
+{
+  "name": "shopware/paas",
+  "description": "Plugin for Shopware PaaS",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagPaas\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagPaas\\SwagPaas",
+    "label": {
+      "de-DE": "Plugin for Shopware PaaS",
+      "en-GB": "Plugin for Shopware PaaS"
+    }
+  }
+}
